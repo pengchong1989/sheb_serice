@@ -202,6 +202,7 @@ public class PerformanceWHServiceImpl extends WHOperationBase {
 	 * 获取对象名称map
 	 */
 	private void getObjectNameMap(SiteInst siteInst) {
+		
 		this.lspNameMap.clear();
 		this.getLspNameMap(siteInst);
 		this.portNameMap.clear();
